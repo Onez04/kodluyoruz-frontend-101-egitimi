@@ -4,7 +4,7 @@
 body {
   background-color: black; /* "background-color: black;" Kodu sekme'nin arka plan rengini değiştirir. */
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif; /* "font-family:" Yazının font unun değişmesini sağlar. Onun dışında google den de font alabilirsin. */
 }
 
 /* 
