@@ -2,7 +2,7 @@
 
 /************** Layout  ***************/
 body {
-  background-color: black;
+  background-color: black; /* "background-color: black;" Kodu sekme'nin arka plan rengini değiştirir. */
   color: white;
   font-family: "Roboto", sans-serif;
 }
@@ -13,6 +13,7 @@ h2 {
   font-size: 4px;
 } */
 
+/* "text-transform: uppercase;" kodu küçük harfleri (Başlık) büyük harfe çevirir (BAŞLIK). */
 h2 {
   color: red;
   font-size: 74px;
