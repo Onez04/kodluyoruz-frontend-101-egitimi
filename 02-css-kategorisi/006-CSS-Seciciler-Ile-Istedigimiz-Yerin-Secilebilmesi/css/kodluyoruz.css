@@ -24,9 +24,17 @@ li:nth-child(odd){
 li:nth-child(even){
         color: blue;
 } */
-
+/* 3 üçüncü renkli oluyor kısaca bu böyle gidiyor 2-3-4-5 vb. */
 li:nth-child(3n) {
   color: red;
+}
+/* de var */
+li:nth-child(3n+1) {
+  color: mediumvioletred;
+}
+/* bu da var */
+li:nth-child(3n-1) {
+  color: goldenrod;
 }
 
 .color-blue .fw-normal {
