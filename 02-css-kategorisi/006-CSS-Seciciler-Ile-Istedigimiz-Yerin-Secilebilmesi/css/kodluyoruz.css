@@ -6,19 +6,21 @@
 /* Css Selektors */
 
 /*
+-->Li deki ilk satırın rengini değiştirir<--
  li:first-child {
      color: green;
  }
-
+-->Li deki son satırın rengini değiştirir<-- 
  li:last-child {
     color:aqua;
 } */
 
 /*
+-->İlk satıra renk koyup sonradan 1 satır renksiz diğer satır renkli diye gidiyor<--
 li:nth-child(odd){
      color: red;
 }
-
+-->Renksiz bırakılanları renkli yapıyor<--
 li:nth-child(even){
         color: blue;
 } */
