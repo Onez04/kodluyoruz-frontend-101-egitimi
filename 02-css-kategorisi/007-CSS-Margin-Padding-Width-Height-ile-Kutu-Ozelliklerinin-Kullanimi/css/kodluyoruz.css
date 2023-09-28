@@ -1,3 +1,30 @@
+/*
+ .box {
+  background-color: blueviolet; --> Yazı nın arka plan rengini değiştirir
+  width: 300px;                 --> Kutunun genişliğini ayarlar
+  height: 300px;                --> Kutunun yüksekliğini ayarlar
+  padding: 100px;               --> Kutunun içindeki yazıyı ortalamaya, köşeye çekmeye falan yarar ayrıca 
+                                                                                           kutuyu büyültür
+  margin: 20px;                 --> Yan yana veya alt alta olan sıkışan kutuları aralamaya yarar ama bunu her
+                                                                                                 tarafa yapar
+  margin-right: 30px;
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  float: left;                  --> Alt alta olan yazıyı veya kutuyu yan yana koymaya yarar
+} 
+*/
+/*
+  .card {
+  width: 20%;  --> Kutu Boyutunu yüzdelik olarak da ayarlayabiliriz
+  float: left;
+  padding: 5%;
+  margin-right: 3%;
+  background-color: #a19999;
+  border-radius: 10px;  -->Background color attıktan sonra kutuyu dairesel hale getirmeye yarıyor
+} 
+*/
+
 body {
   margin: 0;
   padding: 0;
@@ -6,7 +33,8 @@ body {
   width: 1000px;
   /*  
     margin-left: auto;
-    margin-right: auto;*/
+    margin-right: auto;
+  */
   margin: 50px auto 0;
 }
 
