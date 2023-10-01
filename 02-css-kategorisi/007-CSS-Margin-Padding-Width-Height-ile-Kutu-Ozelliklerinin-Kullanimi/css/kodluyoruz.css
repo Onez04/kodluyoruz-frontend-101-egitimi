@@ -5,8 +5,7 @@
   height: 300px;                --> Kutunun yüksekliğini ayarlar
   padding: 100px;               --> Kutunun içindeki yazıyı ortalamaya, köşeye çekmeye falan yarar ayrıca 
                                                                                            kutuyu büyültür
-  margin: 20px;                 --> Yan yana veya alt alta olan sıkışan kutuları aralamaya yarar ama bunu her
-                                                                                                 tarafa yapar
+  margin: 20px;                 --> İki Kutu arasındaki mesafeyi ayarlıyor
   margin-right: 30px;
   margin-left: 25px;
   margin-top: 15px;
@@ -24,7 +23,11 @@
   border-radius: 10px;  -->Background color attıktan sonra kutuyu dairesel hale getirmeye yarıyor
 } 
 */
-
+/* 
+  .clear {
+    clear: both;    --> Bu kod diğer komutları etkisiz kılmaya yarıyor
+  }
+*/
 body {
   margin: 0;
   padding: 0;
